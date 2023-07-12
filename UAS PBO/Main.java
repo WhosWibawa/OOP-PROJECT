@@ -12,7 +12,7 @@ public class Main {
     static Camera libs = new Camera();
     public static void main(String[] args) throws ThrowtheException {
         String goBack = "y";
-        iniCamData();
+        initCamData();
 
         while (goBack.equalsIgnoreCase("y")){
             showMenu();
