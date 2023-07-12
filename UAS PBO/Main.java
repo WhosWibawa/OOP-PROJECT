@@ -12,7 +12,7 @@ public class Main {
     static Camera libs = new Camera();
     public static void main(String[] args) throws ThrowtheException {
         String goBack = "y";
-        initKostData();
+        iniCamData();
 
         while (goBack.equalsIgnoreCase("y")){
             showMenu();
@@ -42,7 +42,7 @@ public class Main {
         }
     }
 
-    public static void initKostData() throws ThrowtheException{
+    public static void initCamData() throws ThrowtheException{
         //Room List
         libs.addCam(new Cams(1, "Sony a7", 300000), true);
         libs.addCam(new Cams(2, "Sony a7c", 320000), true);
